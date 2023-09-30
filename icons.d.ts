@@ -5,10 +5,10 @@
 export {};
 
 declare global {
-  type SvgType = 'download' | 'social/twitter' | 'vite' | 'vue' | 'default'
+  export type SvgName = 'download' | 'social/twitter' | 'vite' | 'vue' | 'default'
   interface Window {
-    svgList: Record<SvgType, () => Promise<{ default: string }>>
-    importSvg: (name: SvgType) => Promise<string>
+    svgList: Record<SvgName, () => Promise<{ default: string }>>
+    importSvg: (name: SvgName) => Promise<string>
   }
 }
 

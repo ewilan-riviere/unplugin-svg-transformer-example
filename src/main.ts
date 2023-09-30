@@ -1,6 +1,6 @@
 import { importSvg, svgList } from 'unplugin-svg-transformer/icons'
 
-const svg: SvgType = 'vite'
+const svg: SvgName = 'vite'
 
 importSvg(svg).then((res) => {
   document.getElementById('vite')!.innerHTML = res

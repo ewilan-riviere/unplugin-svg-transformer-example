@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   unplugin-svg-transformer:
-    specifier: 1.0.0-alpha.0
-    version: 1.0.0-alpha.0
+    specifier: 1.0.0-alpha.1
+    version: 1.0.0-alpha.1
 
 devDependencies:
   typescript:
@@ -395,8 +395,8 @@ packages:
     hasBin: true
     dev: true
 
-  /unplugin-svg-transformer@1.0.0-alpha.0:
-    resolution: {integrity: sha512-fDORSBuMGNQn50l0kXK315Ia4eTAIRI+tOZ7G5OTEc10F2s+m0cw+wud050NuPLcD8RTgYKY9LnnxczuOg8mUg==}
+  /unplugin-svg-transformer@1.0.0-alpha.1:
+    resolution: {integrity: sha512-awYODp2kuhANLrn5h37D0eUPYxTLFd699BahkqQ/96EXCm+l8hm92FyYhzdBUwxLCshlqexe9IyuqF2y8aVGGg==}
     dependencies:
       unplugin: 1.5.0
     dev: false
