@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "typescript": "^5.2.2",
-    "unplugin-svg-transformer": "1.0.0",
+    "unplugin-svg-transformer": "1.0.2",
     "vite": "^4.4.9"
   }
 }

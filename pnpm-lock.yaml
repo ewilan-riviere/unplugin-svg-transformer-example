@@ -9,8 +9,8 @@ devDependencies:
     specifier: ^5.2.2
     version: 5.2.2
   unplugin-svg-transformer:
-    specifier: 1.0.0
-    version: 1.0.0
+    specifier: 1.0.2
+    version: 1.0.2
   vite:
     specifier: ^4.4.9
     version: 4.4.9
@@ -394,8 +394,8 @@ packages:
     hasBin: true
     dev: true
 
-  /unplugin-svg-transformer@1.0.0:
-    resolution: {integrity: sha512-qFhbm2UOHKxJvi8GS5Kr5Zlxpx/ise+3AHu+aUoH+6nBfN/WkvwyzLnpEJehFRyL0WX0w5tknH0ZeHsZ6u6jEg==}
+  /unplugin-svg-transformer@1.0.2:
+    resolution: {integrity: sha512-O/mg8d+vh/UKLCO4CuW3KrAzv13hjhkm1UDBmephTCtZbH/BM9gQToeCdxWiP1XVISi9JoxNGEWq0tZljaVw2Q==}
     dependencies:
       unplugin: 1.5.0
     dev: true
