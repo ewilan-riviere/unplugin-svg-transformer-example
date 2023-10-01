@@ -10,22 +10,22 @@ export const options = {
     clearSize: "none",
     clearClass: "none",
     clearStyle: "none",
-    currentColor: false,
+    currentColor: true,
     sizeInherit: false
   },
   warning: true,
-  cacheDir: "./src/cache",
-  global: true,
+  cacheDir: "./node_modules/unplugin-svg-transformer/cache",
+  global: false,
   libraryDir: "./src",
   svgDir: "./src/svg",
   useTypes: true
 }
 export const svgList: Record<SvgName, () => Promise<{ default: string }>> = {
-  'download': () => import('./cache/download.ts'),
-  'social/twitter': () => import('./cache/social/twitter.ts'),
-  'vite': () => import('./cache/vite.ts'),
-  'vue': () => import('./cache/vue.ts'),
-  'default': () => import('./cache/default.ts'),
+  'download': () => import('../node_modules/unplugin-svg-transformer/cache/download.ts'),
+  'social/twitter': () => import('../node_modules/unplugin-svg-transformer/cache/social/twitter.ts'),
+  'vite': () => import('../node_modules/unplugin-svg-transformer/cache/vite.ts'),
+  'vue': () => import('../node_modules/unplugin-svg-transformer/cache/vue.ts'),
+  'default': () => import('../node_modules/unplugin-svg-transformer/cache/default.ts'),
 }
 
 export async function importSvg(name: SvgName): Promise<string> {
