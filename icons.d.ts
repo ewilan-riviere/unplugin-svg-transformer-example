@@ -7,10 +7,16 @@ export {};
 declare global {
   export type SvgName = 'download' | 'social/twitter' | 'vite' | 'vue' | 'default'
   interface Window {
-    svgList: Record<SvgName, () => Promise<{ default: string }>>
-    importSvg: (name: SvgName) => Promise<string>
+    ust: {
+      options: { cacheDir?: string, global: boolean, libraryDir?: string, svgDir?: string, useTypes: boolean, isTesting: boolean, isNuxt: boolean, nuxtDir: string, fallback: string, svg: { classDefault?: string[], clearSize: 'all' | 'parent' | 'none', clearClass: 'all' | 'parent' | 'none', clearStyle: 'all' | 'parent' | 'none', currentColor: boolean, inlineStyleDefault?: string[], sizeInherit: boolean, title?: boolean }, warning: boolean }
+      svgList: Record<SvgName, () => Promise<{ default: string }>>
+      importSvg: (name: SvgName) => Promise<string>
+    }
   }
 }
 
-window.svgList = window.svgList || {}
-window.importSvg = importSvg || function () {}
+window.ust = {
+  options: options || {},
+  svgList: svgList || {},
+  importSvg: importSvg || function () {},
+} || {}

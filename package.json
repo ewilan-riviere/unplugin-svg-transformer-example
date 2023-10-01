@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "typescript": "^5.0.2",
-    "unplugin-svg-transformer": "1.0.0-alpha.1",
-    "vite": "^4.4.5"
+    "typescript": "^5.2.2",
+    "unplugin-svg-transformer": "1.0.0-alpha.3",
+    "vite": "^4.4.9"
   }
 }
