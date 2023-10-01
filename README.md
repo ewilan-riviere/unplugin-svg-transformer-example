@@ -2,6 +2,8 @@
 
 Example of usage of [`unplugin-svg-transformer`](https://github.com/kiwilan/unplugin-svg-transformer) with [`vite`](https://vitejs.dev/) for [Stackblitz](https://stackblitz.com/github/ewilan-riviere/unplugin-svg-transformer-example?file=README.md).
 
+This example use [Vite](https://vitejs.dev/) and [Vue 3](https://vuejs.org/).
+
 ## Usage
 
 Download dependencies.
