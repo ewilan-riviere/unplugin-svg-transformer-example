@@ -15,7 +15,7 @@ export const options = {
   },
   warning: true,
   cacheDir: "./node_modules/unplugin-svg-transformer/cache",
-  global: false,
+  global: true,
   libraryDir: "./src",
   svgDir: "./src/svg",
   useTypes: true
